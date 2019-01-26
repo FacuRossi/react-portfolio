@@ -1,0 +1,14 @@
+@import url('../css/fonts.css');
+@import 'header';
+@import 'variables';
+
+
+.main {
+    background-color: #f6f5f3;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 1em;
+}
+

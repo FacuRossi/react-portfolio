@@ -1,0 +1,51 @@
+@import 'variables';
+
+.header {
+    background-color: $vanillaGrey;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 0.5fr 0.5fr;
+    grid-template-rows: 100px;
+}
+
+.logo-container{
+    justify-self: end;
+    align-self: center;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-column-start: 3;
+    justify-items: center;
+}
+
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: start;
+    grid-column-start: 5;
+}
+
+.links > a {
+	font-size: 30px;
+    color: $scuffedDarkGrey;
+    &:hover{
+        color: $simplerLimeGreen;
+    }
+}
+
+.menu > div {
+	font: 14px 'lato-extrabold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    &:hover{
+        color: $simplerLimeGreen;
+    }
+}
