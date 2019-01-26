@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import logo from './logo.jpg';
+import { Link } from "react-router-dom";
+
 
 const social = [
   {
@@ -23,24 +25,25 @@ const social = [
 
 const networks = social.map((network) => {
   return <a key={network.name} href={network.url}>
-      <i className={network.className} />
-    </a>;}
+    <i className={network.className} />
+  </a>;
+}
 )
 
 function Header(props) {
   return <div className="header">
     <div className="logo-container">
-      <img src={logo} className="logo" alt="logo" />
+      <Link to="/">
+        <img src={logo} className="logo" alt="logo" />
+      </Link>
     </div>
     <div className="menu">
-      <div id="about">About </div>
-      <div id="resume">Resume </div>
-      <div id="work">Works </div>
-      <div id="contact">Contact</div>
+      <Link to="/about">About</Link>
+      <Link to="/resume">Resume</Link>
+      <Link to="/works">Works</Link>
+      <Link to="/contact">Contact</Link>
     </div>
-    <div className="links">
-      {networks}
-    </div>
+    <div className="links">{networks}</div>
   </div>;
 }
 

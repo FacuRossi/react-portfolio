@@ -41,10 +41,12 @@
     }
 }
 
-.menu > div {
+.menu > a {
 	font: 14px 'lato-extrabold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.5px;
+    text-decoration: none;
+    color: $scuffedDarkGrey;
     &:hover{
         color: $simplerLimeGreen;
     }
