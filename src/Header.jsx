@@ -22,6 +22,24 @@ const social = [
   }
 ];
 
+const linksConfiguration = [
+  {
+    to: "/about",
+    text: "About"
+  },
+  {
+    to: "/resume",
+    text: "Reesume"
+  },
+  {
+    to: "/works",
+    text: "Works"
+  },
+  {
+    to: "/contact",
+    text: "Contact"
+  }
+];
 
 const networks = social.map((network) => {
   return <a key={network.name} href={network.url}>
@@ -30,21 +48,20 @@ const networks = social.map((network) => {
 }
 )
 
+const links = linksConfiguration.map(link => {
+  return <Link key={link.text} to={link.to}>{link.text}</Link>;
+});
+
 function Header(props) {
   return <div className="header">
-    <div className="logo-container">
-      <Link to="/">
-        <img src={logo} className="logo" alt="logo" />
-      </Link>
-    </div>
-    <div className="menu">
-      <Link to="/about">About</Link>
-      <Link to="/resume">Resume</Link>
-      <Link to="/works">Works</Link>
-      <Link to="/contact">Contact</Link>
-    </div>
-    <div className="links">{networks}</div>
-  </div>;
+      <div className="logo-container">
+        <Link to="/">
+          <img src={logo} className="logo" alt="logo" />
+        </Link>
+      </div>
+      <div className="menu">{links}</div>
+      <div className="links">{networks}</div>
+    </div>;
 }
 
 Header.propTypes = {
