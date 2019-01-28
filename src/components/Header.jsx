@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import logo from './logo.jpg';
+import logo from '../assets/images/logo.jpg';
 import { Link } from "react-router-dom";
 
 
@@ -29,7 +29,7 @@ const linksConfiguration = [
   },
   {
     to: "/resume",
-    text: "Reesume"
+    text: "Resume"
   },
   {
     to: "/works",

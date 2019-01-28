@@ -1,10 +1,16 @@
 @import 'variables';
+@import 'mixin';
 
 .header {
     background-color: $vanillaGrey;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 0.5fr 0.5fr;
-    grid-template-rows: 100px;
+    @include mediaQuery ($laptop) {
+        grid-template-columns: 0.5fr 1fr 1fr 0.5fr 0.5fr;
+    }
+    @include mediaQuery ($tablet) {
+        grid-template-columns:  0.3fr 0.3fr 1fr 0.3fr 0.5fr;
+    }
 }
 
 .logo-container{
@@ -12,8 +18,11 @@
     align-self: center;
 }
 .logo {
-  height: 100px;
-  width: 100px;
+    height: 10vh;
+    width: 100px;
+    @include mediaQuery ($tablet) {
+        width:  80px;
+    }
 }
 
 .menu {
@@ -39,6 +48,10 @@
     &:hover{
         color: $simplerLimeGreen;
     }
+    @include mediaQuery ($laptop) {
+        font-size: 25px;
+    }
+   
 }
 
 .menu > a {
@@ -50,4 +63,8 @@
     &:hover{
         color: $simplerLimeGreen;
     }
+    @include mediaQuery ($laptop) {
+        font-size: 12px;
+    }
 }
+

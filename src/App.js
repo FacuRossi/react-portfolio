@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import Header from './components/Header';
 import { HashRouter } from "react-router-dom";
 import { Switch, Route } from 'react-router'
-import Home from './Home'
-import About from './About'
-import Resume from './Resume'
-import Works from './Works'
-import Contact from './Contact'
+import Home from './components/Home'
+import About from './components/About'
+import Resume from './components/Resume'
+import Works from './components/Works'
+import Contact from './components/Contact'
 
 import './assets/css/fontawesome/css/all.css';
 import './assets/sass/app.scss';

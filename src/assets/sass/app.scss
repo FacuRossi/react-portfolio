@@ -1,14 +1,17 @@
 @import url('../css/fonts.css');
 @import 'header';
 @import 'variables';
+@import 'home';
 
-
-.main {
-    background-color: #f6f5f3;
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color:$whiteIsh;
 }
 
 .grid {
     display: grid;
-    grid-gap: 1em;
+    grid-template-rows: 10vh 90vh;
 }
 
