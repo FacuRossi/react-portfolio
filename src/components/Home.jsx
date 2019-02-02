@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const occupation = "I'm a software engineer based in Córdoba, Argentina. I'm really enjoying the challenges that my profession involve, I take it as a great opportunity for continuing to grow as a person and professional."
+const occupation = "I'm a software engineer based in Córdoba, Argentina. I'm really enjoying the challenges my profession involves. I take it as a great opportunity to continuing growing as a person as well as professional."
 
 function Home(props) {
   return (

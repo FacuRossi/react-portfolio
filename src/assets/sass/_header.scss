@@ -46,7 +46,7 @@
 	font-size: 30px;
     color: $scuffedDarkGrey;
     &:hover{
-        color: $simplerLimeGreen;
+        color: $whiteIsh;
     }
     @include mediaQuery ($laptop) {
         font-size: 25px;
@@ -61,7 +61,7 @@
     text-decoration: none;
     color: $scuffedDarkGrey;
     &:hover{
-        color: $simplerLimeGreen;
+        color: $whiteIsh;
     }
     @include mediaQuery ($laptop) {
         font-size: 12px;
