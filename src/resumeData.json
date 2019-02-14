@@ -1,0 +1,38 @@
+{
+  "resumeData" : {
+    "name": "Facundo Rossi",
+    "phone": "+54 3406 401924",
+    "email": "Rossifacundo94@gmail.com",
+    "city": "Cordoba",
+    "state": "Argentina",
+    "occupation": "I'm a software engineer based in Córdoba, Argentina. I'm really enjoying the challenges my profession involves. I take it as a great opportunity to continuing growing as a person as well as professional.",
+    "aboutMe": [
+      {
+        "text": "Hi, this is Facundo. I'm a Software Engineer. I keen on each aspect of building apps from design, develop, test and deliver software in order to accomplish user needs."
+      },
+      {
+        "text": "I have worked on projects oriented towards the web environment and my skills are broad: as a backend developer, I’ve worked with Java, Spring Framework, EJB, JUnit and as a frontend, I have experience with Html, CSS, Sass, JavaScript, and ReactJS."
+      },
+      {
+        "text": "Besides, I've got involved in DevOps and Continuous Integration tasks working with Jenkins, Docker, AWS, SonarQube for Manage product build lifecycle"
+      }
+    ],
+    "social" : [
+      {
+        "name": "github",
+        "url": "https://github.com/FacuRossi",
+        "className": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "http://www.linkedin.com/in/facundo-rossi",
+        "className": "fab fa-linkedin"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/FacuRossi4",
+        "className": "fab fa-twitter"
+      }
+    ]
+  }
+}

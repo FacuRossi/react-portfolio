@@ -1,0 +1,59 @@
+.about {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.about-img-contact {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.profile-picture {
+  object-fit: cover;  
+  width: 320px;
+  height: 320px;
+  border-radius: 1em;
+  //border: 10px solid $vanillaGrey;
+  //border-bottom: 45px solid $vanillaGrey;
+  -webkit-box-shadow: 3px 3px 3px $scuffedDarkGrey;
+     -moz-box-shadow: 3px 3px 3px $scuffedDarkGrey;
+          box-shadow: 3px 3px 3px $scuffedDarkGrey;
+}
+
+.contact-details {
+  margin-top:30px;
+}
+.contact-icons {
+  margin-bottom: 25px;
+  i {
+    font-size: 25px;
+    margin-right: 10px;
+    color: $scuffedDarkGrey;
+    @include hover($simplerLimeGreen)
+  }
+  span {
+    font: 20px 'lato', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: $scuffedDarkGrey;
+  }
+}
+.about-text {
+  align-self: flex-start;
+  margin: 10vh 10vw 0 0;
+}
+.about-description {
+  font: 20px 'lato', sans-serif;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-align: justify;
+  color: $scuffedDarkGrey;
+}
+
+.about-title {
+  font: 22px 'lato-bold', sans-serif;
+  letter-spacing: 1px;
+  color: $scuffedDarkGrey;
+}
