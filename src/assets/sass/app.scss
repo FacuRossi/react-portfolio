@@ -4,6 +4,7 @@
 @import 'home';
 @import 'animate-text';
 @import 'about';
+@import 'resume';
 
 body {
     height: 100vh;
@@ -12,11 +13,12 @@ body {
     background-color:$whiteIsh;
 }
 
-html {
+html {    
     box-sizing: border-box;
-  }
+}
+
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 .grid {

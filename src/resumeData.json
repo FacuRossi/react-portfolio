@@ -33,6 +33,30 @@
         "url": "https://twitter.com/FacuRossi4",
         "className": "fab fa-twitter"
       }
-    ]
+    ],
+    "cv": {
+      "Education": [
+        {
+          "title": "National Technological University",
+          "subtitle": "Information System Engineering • December 2017",
+          "description": "Completed and graduated with the Information Systems Engineer degree at the National Technological University of Córdoba, Argentina"
+        }  
+      ],
+      "Work": [
+        {
+          "title": "LenioLabs LC",
+          "subtitle": "Software Developer • December 2018 - Present",
+          "description": "Currently, I'm working as a Software Engineer, in charge of designing, developing and testing apps to accomplish user requirements. I'm participating in all project lifecycle."
+        },
+        {
+          "title": "SimTLiX S.R.Ly",
+          "subtitle": "Software Developer • May 2017 - December 2018",
+          "description": "Currently, I'm working as a Software Engineer, in charge of designing, developing and testing apps to accomplish user requirements. I'm participating in all project lifecycle."
+        }  
+      ],
+      "Skills": [
+        "React", "Javascript", "Html", "Css", "Sass", "Redux", "Java", "Spring", "Docker", "CI Tools"
+      ]
+    }
   }
 }
